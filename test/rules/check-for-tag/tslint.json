@@ -1,0 +1,11 @@
+{
+  "rules": {
+    "check-for-tag": {
+      "options": [
+        true,
+        ["DoNotUse"]
+      ],
+      "severity": "warning"
+    }
+  }
+}
