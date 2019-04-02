@@ -1,0 +1,19 @@
+import { other, other2 as foobar } from './helper.test';
+
+import { DeprecatedClass } from './helper.test';
+{
+    const a = new DeprecatedClass();
+                  ~~~~~~~~~~~~~~~ [Found disallowed tag at DeprecatedClass.]
+}
+
+import { PartiallyDeprecatedClass } from './helper.test';
+{
+    const a: PartiallyDeprecatedClass = new PartiallyDeprecatedClass();
+    a.hello(1);
+      ~~~~~ [Found disallowed tag at hello.]
+    a.world(2);
+
+    /* tslint:disable:check-for-tag */
+    a.hello(1);
+    /* tslint:enable:check-for-tag */
+}
