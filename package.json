@@ -1,8 +1,7 @@
 {
   "name": "@rosen-group/tslint-custom-rule-checkfortag",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Custom TsLint rule to find a Tag (specified by rule option) in typescript api documentation (e.g. JsDoc) comments",
-  "main": "index.js",
   "scripts": {
     "build": "tsc -p .",
     "test": "tslint --rules-dir ./dist --test test/**/tslint.json "
@@ -34,5 +33,6 @@
   "devDependencies": {
     "@types/node": "^11.11.3",
     "typescript": "^3.3.3333"
-  }
+  },
+  "files": ["dist/*"]
 }

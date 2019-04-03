@@ -11,7 +11,7 @@ npm install --save-dev @rosen-group/tslint-custom-rule-checkfortag
 Inside your tslint.json file include the directory with the rule:
 ```
 "rulesDirectory": [
-    "node_modules/@rosen-group/tslint-custom-rule-checkfortag/"
+    "node_modules/@rosen-group/tslint-custom-rule-checkfortag/dist/"
 ]
 ```
 
