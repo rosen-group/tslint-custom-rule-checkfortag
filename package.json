@@ -34,5 +34,7 @@
     "@types/node": "^11.11.3",
     "typescript": "^3.3.3333"
   },
-  "files": ["dist/*"]
+  "files": [
+    "dist/*"
+  ]
 }
