@@ -28,7 +28,7 @@
   },
   "homepage": "https://www.rosen-group.com",
   "dependencies": {
-    "tslint": "^5.14.0"
+    "tslint": "^5.18.0"
   },
   "devDependencies": {
     "@types/node": "^11.11.3",
